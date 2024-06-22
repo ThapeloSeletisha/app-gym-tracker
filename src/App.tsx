@@ -1,7 +1,8 @@
 import React from 'react';
 import WorkoutCard from './components/WorkoutCard';
+import Footer from './components/Footer';
 
-function App() {
+const App = () => {
   return (
     <div>
       <WorkoutCard
@@ -13,6 +14,9 @@ function App() {
         dateTime={new Date()}
         location='Century City Virgin Active'
         focus='Lower Body'
+      />
+      <Footer 
+        total={2}
       />
     </div>
   );
