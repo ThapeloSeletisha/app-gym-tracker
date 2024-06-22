@@ -5,15 +5,13 @@
 classDiagram
   Exercise --|> WorkoutExercise
   class Workout{
-    +date date
-    +time startTime
+    +Date dateTime
     +string location
     +string focus
     +WorkoutExercise[] exercises
     +addExercise()
     +removeExercise()
-    +getDate()
-    +getTime()
+    +getDateTime()
     +setLocation()
     +getLocation()
     +setFocus()
